@@ -55,7 +55,7 @@ jobs:
             message: 'Commit Coverage Badge'
             add: '*.svg'
 
-        - name: Upload JaCoCo coverage report
+        - name: Upload JaCoCo coverage report1
           uses: actions/upload-artifact@v2
           with:
             name: jacoco-report
